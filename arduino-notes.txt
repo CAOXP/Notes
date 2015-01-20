@@ -1,0 +1,15 @@
+
+====================================================================================
+1.mega32与MEGA328的容量等配置差不多。可以移植
+
+2.如何移植？
+
+3.MEGA16的移植配置
+	a、USBASP烧录BOOTLOADER.  D:\arduino-1.0.1\hardware\M2arduino\bootloaders\atmega16.HEX
+	b、熔丝设置为：低高　EF 99.
+	c、串口烧录应用文件。+ TX RX - 四线烧录，MEGA16的14/15脚为RX,TX，
+		在ARDUINO的IDE界面下点下载，等个１－２秒，RESET一下MEGA16,即可。
+	http://www.amobbs.com/forum.php?mod=viewthread&tid=5611847&highlight=ARDUINO
+	
+	
+====================================================================================
